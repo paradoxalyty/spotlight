@@ -1,0 +1,24 @@
+{
+    "name": "spotlight",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "homepage": "https://paradoxalyty.github.io/spotlight",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paradoxalyty/spotlight.git"
+    },
+    "author": "Roman Beknazarov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/paradoxalyty/spotlight/issues"
+    },
+    "dependencies": {
+        "gh-pages": "^4.0.0",
+        "node-sass": "^8.0.0"
+    }
+}
