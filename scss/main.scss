@@ -37,7 +37,6 @@ html {
     width: 90%;
     padding: 2rem;
     &:hover {
-
         .card {
             background: radial-gradient(
                 100rem circle at var(--xPos) var(--yPos),
@@ -77,7 +76,7 @@ html {
             background: radial-gradient(
                 60rem circle at var(--xPos) var(--yPos),
                 rgba($ciBlue, 0.1),
-                transparent 35%
+                transparent 28%
             );
             opacity: 0;
             transition: all 0.15s ease-in-out;
@@ -89,5 +88,8 @@ html {
             height: calc(100% - 0.1rem);
             width: calc(100% - 0.1rem);
         }
+        // &:hover {
+        //     cursor: url("../img/flashlight-icon-8.png"), auto;
+        // }
     }
 }
